@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hackethon</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fee">One can join this code battle alone as well as with team of maximum members five.
+        Registration Fee - Rs. 1000 for Single Participant.
+        OR
+        Registration Fee - Rs. 400/member for Group Participation.
+
+    </string>
+
+    <string name="prize">Cash Prizes Worth 5 Lacs. Exciting prizes for every Participant.</string>
+</resources>

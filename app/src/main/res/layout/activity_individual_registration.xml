@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout tools:context="com.event.hackethon.certination.IndividualRegistration"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/black_background_new"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:id="@+id/l1"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <pl.droidsonroids.gif.GifTextView
+            android:layout_width="18dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/binary"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/view" />
+
+        <pl.droidsonroids.gif.GifTextView
+            android:layout_width="18dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/binary"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/view"
+            android:layout_toStartOf="@+id/view" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="REGISTRATION FORM"
+        android:clickable="true"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_logo"/>
+
+
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/input_layout_name">
+
+        <EditText
+            android:background="@drawable/round_edt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:id="@+id/etName"
+            android:textColorHint="@android:color/white"
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:layout_margin="7dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/input_layout_password">
+
+        <EditText
+            android:background="@drawable/round_edt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:id="@+id/etEmail"
+            android:textColorHint="@android:color/white"
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:inputType="textEmailAddress"
+            android:hint="E-mail Address"
+            android:layout_margin="7dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/phone">
+
+        <EditText
+            android:background="@drawable/round_edt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:id="@+id/etMobile"
+            android:textColorHint="@android:color/white"
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:inputType="phone"
+            android:hint="Mobile Number"
+            android:layout_margin="7dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/input_layout_college">
+
+        <EditText
+            android:background="@drawable/round_edt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:id="@+id/etCollege"
+            android:textColorHint="@android:color/white"
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:inputType="text"
+            android:hint="College/University Name (Full)"
+            android:layout_margin="7dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/input_layout_teamname">
+
+        <EditText
+            android:background="@drawable/round_edt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:id="@+id/etTeamName"
+            android:textColorHint="@android:color/white"
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:inputType="textPersonName"
+            android:hint="Team Name"
+            android:layout_margin="7dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:background="@drawable/login_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:text="Ready To Battle!"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/bSingleRegister"
+        android:onClick="buttonRegister"/>
+</LinearLayout>
+
+</RelativeLayout>

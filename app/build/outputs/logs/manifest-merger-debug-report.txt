@@ -1,0 +1,150 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:2:1-69:12
+	package
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:7:22-63
+application
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:9:5-67:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.github.d-max:spots-dialog:0.4] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.github.d-max\spots-dialog\0.4\AndroidManifest.xml:12:5-20
+	android:label
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:11:9-45
+activity#com.certination.hackethon.MainActivity
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:16:9-25:20
+	android:screenOrientation
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:18:13-49
+	android:label
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:16:19-47
+intent-filter#android.intent.action.MAIN
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:21:25-66
+activity#com.certination.hackethon.SplashScreen
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:26:9-36:20
+	android:screenOrientation
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:29:13-49
+	android:label
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:28:13-45
+	android:theme
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:30:13-71
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:27:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:31:13-35:29
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:34:27-74
+activity#com.certination.hackethon.IndividualRegistration
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:37:9-38:51
+	android:screenOrientation
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:37:19-57
+activity#com.certination.hackethon.GroupRegistration
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:39:9-40:51
+	android:screenOrientation
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:39:19-52
+activity#com.certination.hackethon.AboutHackathon
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:43:9-46:20
+	android:screenOrientation
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:44:13-49
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:43:19-49
+activity#com.certination.hackethon.AboutCertination
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:47:9-49:15
+	android:screenOrientation
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:47:19-51
+activity#com.certination.hackethon.FinalScreen
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:50:9-51:51
+	android:screenOrientation
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:51:13-49
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:50:19-46
+activity#com.certination.hackethon.SplashTest
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:52:9-54:20
+	android:screenOrientation
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:52:19-45
+activity#com.certination.hackethon.Splash_Spons
+ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:56:9-65:20
+	android:screenOrientation
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:58:13-45
+	android:theme
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:60:13-71
+	android:name
+		ADDED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml:57:13-41
+uses-sdk
+INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.github.d-max:spots-dialog:0.4] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\com.github.d-max\spots-dialog\0.4\AndroidManifest.xml:8:5-10:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.1.7] C:\Users\NAMAN\Downloads\Hackethon\app\build\intermediates\exploded-aar\pl.droidsonroids.gif\android-gif-drawable\1.1.7\AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\NAMAN\Downloads\Hackethon\app\src\main\AndroidManifest.xml

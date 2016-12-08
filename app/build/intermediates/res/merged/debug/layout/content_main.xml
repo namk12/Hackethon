@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.event.hackethon.certination.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/black_background_new">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:id="@+id/individual_registration"
+                android:layout_marginTop="20dp"
+                card_view:cardBackgroundColor="@android:color/transparent"
+                card_view:cardElevation="2dp"
+                card_view:cardCornerRadius="5dp"
+                android:onClick="individualRegistration">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:id="@+id/imageView"
+                        android:src="@drawable/single_user"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="INDIVIDUAL REGISTRATION"
+                        android:id="@+id/textView_SINGLE"
+                        android:textColor="#d5d7d9"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="2dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                card_view:cardBackgroundColor="@android:color/transparent"
+                android:layout_height="130dp"
+                android:id="@+id/about_hackathon"
+                android:layout_marginTop="30dp"
+                card_view:cardElevation="2dp"
+                card_view:cardCornerRadius="5dp"
+                android:onClick="aboutHackathon"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/imageButton_hack1"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/hackethon"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:clickable="true"
+                        android:onClick="aboutHackathon"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="HACKETHON"
+                        android:id="@+id/textView12"
+                        android:textColor="#d5d7d9"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/group_registration"
+                card_view:cardBackgroundColor="@android:color/transparent"
+                card_view:cardElevation="2dp"
+                card_view:cardCornerRadius="5dp"
+                android:nestedScrollingEnabled="false"
+                android:onClick="groupRegistration">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:id="@+id/imageView2"
+                        android:src="@drawable/group_regis_icon"
+                        android:layout_gravity="center"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="GROUP REGISTRATION"
+                        android:id="@+id/textView_grp"
+                        android:textColor="#d5d7d9"
+                        android:textStyle="bold"
+                        android:layout_marginTop="2dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:id="@+id/about_us"
+                android:layout_marginTop="30dp"
+                card_view:cardElevation="2dp"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardBackgroundColor="@android:color/transparent"
+                android:onClick="aboutCertination">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:id="@+id/imageView3"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+
+                        android:layout_marginTop="32dp"
+                        android:src="@drawable/about_us" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="ABOUT US"
+                        android:textColor="#d5d7d9"
+                        android:textStyle="bold"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:id="@+id/textView_who" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+  <!--  <ImageView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/intel"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="POWERED BY"
+        android:textColor="@android:color/white"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageButton_hack"
+        android:layout_toEndOf="@+id/imageButton_hack"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold|italic"
+            android:text="POWERED BY:"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/img"
+            android:src="@drawable/intel_rect"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeWeb">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>

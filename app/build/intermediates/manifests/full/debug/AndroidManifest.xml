@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.certination.hackethon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.certination.hackethon.HackethonApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.certination.hackethon.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                 />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.certination.hackethon.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.certination.hackethon.IndividualRegistration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.certination.hackethon.GroupRegistration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.certination.hackethon.AboutHackathon"
+            android:screenOrientation="portrait" >
+            />
+        </activity>
+        <activity
+            android:name="com.certination.hackethon.AboutCertination"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.certination.hackethon.FinalScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.certination.hackethon.SplashTest"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.certination.hackethon.Splash_Spons"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

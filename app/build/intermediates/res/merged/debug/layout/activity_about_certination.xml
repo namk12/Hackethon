@@ -1,0 +1,583 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="1420dp"
+        tools:context="com.event.hackethon.certination.MainActivity"
+        android:background="@drawable/dd">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:id="@+id/lay"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/logo"
+                android:paddingTop="20dp"
+                android:layout_marginLeft="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp">
+
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig2"
+                    android:src="@drawable/c"/>
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig3"
+                    android:src="@drawable/e"/>
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig4"
+                    android:src="@drawable/r" />
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig5"
+                    android:src="@drawable/t"
+
+                    />
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig6"
+                    android:src="@drawable/i"
+
+                    />
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig7"
+                    android:src="@drawable/n"
+
+                    />
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig8"
+                    android:src="@drawable/a"
+                    android:layout_marginLeft="2dp" />
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig9"
+                    android:src="@drawable/t" />
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig10"
+                    android:src="@drawable/i" />
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig11"
+                    android:src="@drawable/o" />
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ig12"
+                    android:src="@drawable/n" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/lay"
+            android:gravity="center"
+            android:id="@+id/lay1"
+            >
+
+            <View
+                android:layout_width="fill_parent"
+
+                android:layout_height="1dp"
+                android:background="#c0c0c0"
+                android:layout_below="@+id/lay6" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/lay1"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/lay2"
+
+
+            >
+
+
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/tv"
+                    android:id="@+id/img1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perfect Learning System (PLS)"
+
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:text="Providing learners with insight into current behaviors and why they need to change, or how a new process can help make doing something better, helps prepare learners for change. When individuals understand why they need to change,they can begin to teach themselves something new."
+                    android:padding="10dp"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            android:layout_below="@+id/lay2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/lay2"
+
+            android:id="@+id/lay3"
+            android:padding="10dp"
+            android:layout_marginTop="5dp">
+
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+                >
+
+
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/send"
+                    android:id="@+id/img2"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Self Branding "
+
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:text="While the fundamental principles of self branding are relatively easy to understand, successfully implementing the strategy isn’t always straightforward -- and it isn’t always pretty. We spend hours a day managing your personal brand and making new connections for you."
+                    android:padding="10dp"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            android:layout_below="@+id/lay3" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/lay3"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:id="@+id/lay4"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+
+
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/briefcase"
+                    android:id="@+id/img3"
+                    />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Job Assistance "
+
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:text="100% job assistance with 100% dedication, we aim that once a student has developed the core competency, s/he shall get a break. Our aim that no one should be left behind makes us go that extra mile in assisting the students in their placements."
+                    android:padding="10dp"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            android:layout_below="@+id/lay4" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:id="@+id/lay5"
+            android:layout_below="@+id/lay4"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/leafcopy"
+                    android:id="@+id/img4"
+                    />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perfect Authorized Courses"
+
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="1. Google Authorized Courses"
+
+                    android:textColor="@android:color/background_light"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="2. Intel Technology Provider"
+                    android:textColor="@android:color/background_light"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Microsoft Authorized Course"
+                    android:textColor="@android:color/background_light"
+                    android:paddingTop="5dp"
+                    android:id="@+id/textView"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Apple Authorized Courses"
+                    android:textColor="@android:color/background_light"
+                    android:paddingTop="5dp"
+                    android:id="@+id/textView2"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Adobe Authorized Courses"
+                    android:textColor="@android:color/background_light"
+                    android:paddingTop="5dp"
+                    android:id="@+id/textView3"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Red Hat Authorized Courses"
+                    android:textColor="@android:color/background_light"
+                    android:paddingTop="5dp"
+                    android:id="@+id/textView4"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Adobe Authorized Courses"
+                    android:textColor="@android:color/background_light"
+                    android:paddingTop="5dp"
+                    android:id="@+id/textView5"
+                    android:paddingLeft="10dp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            android:layout_below="@+id/lay5" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/lay6"
+            android:layout_below="@+id/lay5"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/flagcopy"
+                    android:id="@+id/img5"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trending Courses"
+
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_light"
+                    android:layout_marginTop="10dp"
+                    android:text="1. Digital Marketing"
+                    android:paddingLeft="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_light"
+                    android:layout_marginTop="10dp"
+                    android:text="2. Internet Of Things"
+                    android:paddingLeft="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_light"
+                    android:layout_marginTop="10dp"
+                    android:text="3. IOS Development"
+                    android:paddingLeft="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_light"
+                    android:layout_marginTop="10dp"
+                    android:text="4. SAP HANA"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_light"
+                    android:layout_marginTop="10dp"
+                    android:text="5. Cloud Computing"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/textView6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_light"
+                    android:layout_marginTop="10dp"
+                    android:text="6. Self Branding"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/textView7" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/lay6"
+            android:gravity="center"
+            >
+
+            <View
+                android:layout_width="200dp"
+
+                android:layout_height="1dp"
+                android:background="#c0c0c0"
+                android:layout_below="@+id/lay6" />
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
